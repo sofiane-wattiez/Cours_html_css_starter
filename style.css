@@ -1,29 +1,38 @@
+/* Style général pour le document */
 html, body {
-    margin: 0; /* Supprime les marges par défaut */
-    padding: 0; /* Supprime les espaces internes */
-    height: 100%; /* Définit la hauteur de la page sur 100% de l'écran */
-    width: 100%; /* Définit la largeur de la page sur 100% de l'écran */
-  }
-  
-  /* * {
-    border: 1px solid #ff1493;
-  } */
-  
-  body {
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
-  }
-  .header {
-    background-color: #ff1493; /* Couleur de fond rose vif */
-    padding: 20px; /* Ajoute des espaces internes autour du contenu */
-    text-align: center; /* Centre le texte horizontalement */
-  }
-  
-  .footer {
-    background-color: #f5f5f5; /* Couleur de fond gris clair */
-    padding: 10px; /* Ajoute des espaces internes */
-    text-align: center; /* Centre le texte */
-    font-size: 0.8em; /* Réduit la taille du texte */
-    color: #555; /* Couleur du texte en gris moyen */
-  }
+  font-family: 'Arial', sans-serif; /* Police claire et lisible */
+  margin: 0; /* Supprime les marges par défaut */
+  padding: 0; /* Supprime les espacements internes */
+  background-color: #f9f9f9; /* Couleur de fond douce */
+  color: #333; /* Couleur du texte agréable pour les yeux */
+}
+
+/* En-tête */
+header {
+  background-color: #ff1493; /* Couleur vive pour attirer l'attention */
+  color: white; /* Texte en blanc pour un contraste clair */
+  padding: 20px; /* Espaces internes autour du contenu */
+  text-align: center; /* Centre le texte horizontalement */
+  border-bottom: 5px solid #ff69b4; /* Bordure inférieure stylisée */
+}
+
+header h1 {
+  margin: 0; /* Supprime les marges du titre */
+  font-size: 2em; /* Agrandit légèrement le texte */
+}
+
+
+
+/* Pied de page */
+footer {
+  background-color: #f5f5f5; /* Fond gris clair */
+  text-align: center; /* Centre le texte */
+  padding: 10px; /* Espaces internes */
+  font-size: 0.8em; /* Texte légèrement plus petit */
+  color: #777; /* Couleur de texte discrète */
+  border-top: 2px solid #ddd; /* Bordure supérieure */
+}
+
+footer p {
+  margin: 0; /* Supprime les marges du texte */
+}
